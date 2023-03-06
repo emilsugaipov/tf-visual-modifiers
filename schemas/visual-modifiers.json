@@ -10,8 +10,9 @@
       ],
       "type": "string"
     },
-    "structs": {
+    "specific": {
       "type": "object",
+      "description": "Specific modifiers for segment fields.",
       "additionalProperties": {
         "type": "object",
         "additionalProperties": {
@@ -29,6 +30,28 @@
               "items": {
                 "type": "string"
               }
+            }
+          }
+        }
+      }
+    },
+    "globals": {
+      "type": "object",
+      "description": "Global modifiers for structs.",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "placeholder": {
+            "type": "string"
+          },
+          "tooltip": {
+            "type": "string"
+          },
+          "modifiers": {
+            "type": "array",
+            "items": {
+              "type": "string"
             }
           }
         }
