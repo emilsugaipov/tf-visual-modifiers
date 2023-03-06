@@ -5,9 +5,9 @@
     "type": "object",
     "additinalProperties": {
        "type": "object",
-        "properties: {
+        "properties": {
           "tooltip": {
-            "type": "string",
+            "type": "string"
           }
         }
       }
