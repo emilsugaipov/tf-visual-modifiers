@@ -9,7 +9,8 @@
           "tooltip": {
             "type": "string"
           }
-        }
+        },
+        "additionalProperties": {},
       }
     }
  }
