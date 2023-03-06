@@ -19,13 +19,16 @@
           "type": "object",
           "additionalProperties": false,
           "properties": {
+            "label": {
+              "type": "string"
+            },
             "placeholder": {
               "type": "string"
             },
             "tooltip": {
               "type": "string"
             },
-            "modifiers": {
+            "presets": {
               "type": "array",
               "items": {
                 "type": "string"
@@ -42,13 +45,16 @@
         "type": "object",
         "additionalProperties": false,
         "properties": {
+          "label": {
+            "type": "string"
+          },
           "placeholder": {
             "type": "string"
           },
           "tooltip": {
             "type": "string"
           },
-          "modifiers": {
+          "presets": {
             "type": "array",
             "items": {
               "type": "string"
