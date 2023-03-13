@@ -38,6 +38,28 @@
         }
       }
     },
+    "forms": {
+      "type": "array",
+      "description": "Form bindings for segments.",
+      "items": {
+        "type": "object", 
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "segments": {
+            "type": "array",
+            "items": {
+              "type": "string",
+            },
+          },
+        },
+      },
+    },
     "globals": {
       "type": "object",
       "description": "Global modifiers for structs.",
